@@ -20,3 +20,7 @@ pip install -r requirements.txt
   ```
   pytest -k <pytest mark>
   ```
+  * Run tests in parallel, by using -n option followed by the number of CPUs
+  ```
+  pytest -n <CPU number>
+  ```
