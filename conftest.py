@@ -10,7 +10,6 @@ from ui.pages.login_page import LoginPage
 @pytest.fixture
 def get_chrome_options():
     options = ChromeOptions()
-    options.binary_location = r'C:\Program Files\Google\Chrome\Application\chrome.exe'
     options.add_argument('chrome')
     return options
 
