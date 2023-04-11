@@ -9,6 +9,7 @@ jobs:
   pytest-python39:
     runs-on: windows-latest
     strategy:
+      max-parallel: 2
       matrix:
         browser: [chrome, firefox]
     steps:
