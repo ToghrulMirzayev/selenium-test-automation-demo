@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from ui.elements.base_elements import InputElement, ActionElement
 
+
 class LoginPage:
     """Page Object representing the login page"""
 
