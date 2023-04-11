@@ -1,3 +1,5 @@
+[![Code Checks](https://github.com/ToghrulMirzayev/selenium-test-automation-demo/actions/workflows/checks.yml/badge.svg)](https://github.com/ToghrulMirzayev/selenium-test-automation-demo/actions/workflows/checks.yml) [![Test Automation](https://github.com/ToghrulMirzayev/selenium-test-automation-demo/actions/workflows/pipelines.yml/badge.svg)](https://github.com/ToghrulMirzayev/selenium-test-automation-demo/actions/workflows/pipelines.yml)
+
 # selenium-test-automation-demo
 
 UI automated test suite with Selenium using Page Elements pattern. 
