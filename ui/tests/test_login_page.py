@@ -1,5 +1,5 @@
 import pytest
-from config import *
+from config import LoginScenarios, data
 
 
 def test_successful_login(login_page):
@@ -8,7 +8,8 @@ def test_successful_login(login_page):
 
 
 @pytest.mark.parametrize("username, password, expected_text",
-                         (login_incorrect_password, login_empty_username, login_locked_username))
+                         (LoginScenarios.login_incorrect_password, LoginScenarios.login_empty_username,
+                          LoginScenarios.login_locked_username))
 def test_login(login_page, username, password, expected_text):
     login_page.login(username=username, password=password)
     login_page.verify_error_message(expected_text)

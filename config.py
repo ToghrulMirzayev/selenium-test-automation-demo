@@ -36,6 +36,8 @@ class DataLogin:
 
 data = DataLogin()
 
-login_incorrect_password = [data.CORRECT_PASSWORD, data.INCORRECT_PASSWORD, data.ERR_MSG_WRONG_CREDS]
-login_empty_username = [data.EMPTY_USERNAME, data.CORRECT_PASSWORD, data.ERR_MSG_EMPTY_CREDS]
-login_locked_username = [data.LOCKED_USERNAME, data.CORRECT_PASSWORD, data.ERR_MSG_LOCKED_USER]
+
+class LoginScenarios:
+    login_incorrect_password = [data.CORRECT_PASSWORD, data.INCORRECT_PASSWORD, data.ERR_MSG_WRONG_CREDS]
+    login_empty_username = [data.EMPTY_USERNAME, data.CORRECT_PASSWORD, data.ERR_MSG_EMPTY_CREDS]
+    login_locked_username = [data.LOCKED_USERNAME, data.CORRECT_PASSWORD, data.ERR_MSG_LOCKED_USER]
